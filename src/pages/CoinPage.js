@@ -54,7 +54,7 @@ const CoinPage = () => {
     }, [currency]);
 
     console.log(coin)
-    if (!coin) return <LinearProgress color="info" />;
+    if (!coin) return <LinearProgress color="info" style={{ backgroundColor: "red" }}/>;
     return (
         <Container>
             <Stack
