@@ -182,7 +182,7 @@ export default function DataTable({ coins, search }) {
     return (
         <Box sx={{ width: '100%' }}>
             <Paper sx={{ width: '100%', mb: 2 }}>
-                <TableContainer>
+                <TableContainer color='secondary'>
                     <Table
                         sx={{ minWidth: 750 }}
                         aria-labelledby="tableTitle"

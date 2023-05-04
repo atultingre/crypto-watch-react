@@ -4,7 +4,8 @@ import React from 'react'
 import CoinsCarousel from './CoinsCarousel'
 
 const HeroBanner = styled(Box)(() => ({
-    backgroundImage: "url('https://images.unsplash.com/photo-1640826514546-7d2eab70a4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80')",
+    // backgroundImage: "url('https://images.unsplash.com/photo-1640826514546-7d2eab70a4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80')",
+    background: "linear-gradient(90deg, #1CB5E0 0%, #000851 100%)",
     backgroundPosition: 'center top',
     objectFit: "contain",
     color: "#FFF",

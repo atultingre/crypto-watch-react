@@ -40,10 +40,11 @@ const CoinsTable = () => {
                     onChange={(e) => { setSearch(e.target.value) }}
                 />
                 {loading ? (
-                    <LinearProgress style={{ backgroundColor: "#CDC5B4" }} />
+                    <LinearProgress style={{ backgroundColor: "red" }} />
                 ) :
                     <DataTable coins={coins} search={search} />}
             </Container>
+            {/* #CDC5B4 */}
         </Box>
     )
 }
